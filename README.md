@@ -24,3 +24,14 @@ pip install Flask
 `from flask import Flask`
 
 and try to code like `first.py`
+
+# using template html file
+to call it use `from flask import render_template`
+
+to use it you can just use 
+
+```py
+@app.route('/')
+def home():
+ render_template('home.html')
+```
